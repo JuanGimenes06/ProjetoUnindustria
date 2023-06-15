@@ -361,34 +361,36 @@
 @media screen and (max-width: 850px) {
     
     .textoAcoes{
-        font-size: 7.8px;
-        margin: 25px 0 10px
+        font-size: 19px;
+        margin: 80px 0 10px
     }
 
     .div1, .div2{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin: 80px 0 0;
+    }
+    .div1{
+        flex-direction: row-reverse;
     }
     .div1 .img_comoFunciona, .div2 .img_cursos{
-        width: 150px;
-        height: 100px;
+        width: 345px;
+    height: 233px;
         margin: 0;
       
     }
     .div1 .texto_comoFunciona, .div2 .texto_cursos{
-        font-size: 10px;
+        font-size: 20px;
+        margin: 20px;
+
     }
 
-   .div1{
-    margin-bottom: 12px;
-   }
    .info1, .info2, .info3{
     display: flex;
     justify-content: center;
-    height: 98px;
+    height: 193px;
    }
    .informacoes{
     flex-direction: column;
@@ -399,18 +401,18 @@
     margin: 0;
    }
    .titulo_texto .texto_saude, .titulo_texto .texto_lideranca, .titulo_texto .texto_gestao, .titulo_texto .texto_tecnologia, .titulo_texto .texto_docente{
-    font-size: 6px;
+    font-size: 14px;
    }
 
    .titulo_texto .titulo_saude, .titulo_texto .titulo_lideranca, .titulo_texto .titulo_gestao, .titulo_texto .titulo_tecnologia, .titulo_texto .titulo_docente{
-    font-size: 7px;
+    font-size: 15px;
     padding: 0 0 5px;
    }
 
    .img_saude, .img_lideranca, .img_gestao, .img_tecnologia, .img_docente{
-    width: 20px;
-height: 22.86px;
-border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
 
    }
    .lideranca{
@@ -437,28 +439,28 @@ border-radius: 6px;
    }
    .saude, .lideranca, .gestao, .tecnologia, .docente{
     width: 40vw;
+    margin-top: 10px;
    }
 
-   .div3{
-    display: none;
+   
+
+   .div4 .texto_imagem4, .div5 .texto_imagem5, .div3 .texto_imagem3{
+    font-size: 19px;
    }
 
-   .div4 .texto_imagem4, .div5 .texto_imagem5{
-    font-size: 9px;
+   .div4, .div5, .div3{
+    margin: 50px 0 10px ;
    }
 
-   .div4, .div5{
-    margin: 50px 0 0 ;
-   }
-
-   .div4 .imagem4, .div5 .imagem5{
+   .div4 .imagem4, .div5 .imagem5, .div3 .imagem3{
     margin: 0;
    }
 
    .ultimo_texto{
-    font-size: 9px;
-    margin: 38px 0 ;
+    font-size: 17px ;
+    margin: 150px 5px ;
     line-height: 19px;
+    line-height: 26px;
 
    }
    .img_saude{
