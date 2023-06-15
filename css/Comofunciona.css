@@ -361,36 +361,35 @@
 @media screen and (max-width: 850px) {
     
     .textoAcoes{
-        font-size: 19px;
-        margin: 80px 0 10px
+        font-size: 7.8px;
+        margin: 25px 0 10px
     }
 
     .div1, .div2{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 80px 0 0;
-    }
-    .div1{
-        flex-direction: row-reverse;
+        margin: 0;
     }
     .div1 .img_comoFunciona, .div2 .img_cursos{
-        width: 345px;
-    height: 233px;
+        width: 150px;
+        height: 100px;
         margin: 0;
       
     }
     .div1 .texto_comoFunciona, .div2 .texto_cursos{
-        font-size: 20px;
-        margin: 20px;
-
+        font-size: 10px;
     }
 
+   .div1{
+    margin: 25px 0;
+   }
    .info1, .info2, .info3{
     display: flex;
     justify-content: center;
-    height: 193px;
+    height: 98px;
+    margin-top: 15px;
    }
    .informacoes{
     flex-direction: column;
@@ -401,23 +400,23 @@
     margin: 0;
    }
    .titulo_texto .texto_saude, .titulo_texto .texto_lideranca, .titulo_texto .texto_gestao, .titulo_texto .texto_tecnologia, .titulo_texto .texto_docente{
-    font-size: 14px;
+    font-size: 8px;
    }
 
    .titulo_texto .titulo_saude, .titulo_texto .titulo_lideranca, .titulo_texto .titulo_gestao, .titulo_texto .titulo_tecnologia, .titulo_texto .titulo_docente{
-    font-size: 15px;
+    font-size: 8px;
     padding: 0 0 5px;
    }
 
    .img_saude, .img_lideranca, .img_gestao, .img_tecnologia, .img_docente{
-    width: 40px;
-    height: 40px;
-    border-radius: 6px;
+    width: 20px;
+height: 22.86px;
+border-radius: 6px;
 
    }
    .lideranca{
     border-top: 5px solid #7D1128;
-    padding: 9px 10px 0px;
+    padding: 6px 10px 0px;
 
    }
    .saude{
@@ -426,41 +425,41 @@
    }
    .gestao{
     border-top: 5px solid #CC5803;
-    padding: 11px 10px 0px;
+    padding: 6px 10px 0px;
    }
    .tecnologia{
     border-top: 5px solid #3B28CC;
-    padding: 13px 10px 0px;
+    padding: 6px 10px 0px;
    }
    .docente{
     border-top: 5px solid #F9DC5C;
-    padding: 16px 10px 0px;
+    padding: 6px 10px 0px;
 
    }
    .saude, .lideranca, .gestao, .tecnologia, .docente{
     width: 40vw;
-    margin-top: 10px;
    }
 
-   
-
-   .div4 .texto_imagem4, .div5 .texto_imagem5, .div3 .texto_imagem3{
-    font-size: 19px;
+   .div3{
+    display: none;
    }
 
-   .div4, .div5, .div3{
-    margin: 50px 0 10px ;
+   .div4 .texto_imagem4, .div5 .texto_imagem5{
+    font-size: 9px;
    }
 
-   .div4 .imagem4, .div5 .imagem5, .div3 .imagem3{
+   .div4, .div5{
+    margin: 50px 0 0 ;
+   }
+
+   .div4 .imagem4, .div5 .imagem5{
     margin: 0;
    }
 
    .ultimo_texto{
-    font-size: 17px ;
-    margin: 150px 5px ;
+    font-size: 9px;
+    margin: 38px 10px ;
     line-height: 19px;
-    line-height: 26px;
 
    }
    .img_saude{

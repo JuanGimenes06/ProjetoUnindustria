@@ -174,23 +174,23 @@ iframe{
     }
     .pre-cursos{
         width: auto;
-        margin: 20px 50px 75px;
-        justify-content: left;
+        margin: 15px 50px 75px;
+        justify-content: center;
         align-items: center;
 
     }
     .pre-curso{
-        width: 200px;
-        height: 121px;
-        padding: 17px 10px 17px 17px;
+        width: 97.02px;
+        height: 80px;
+        padding: 6px 10px 10px 8px;
         transform: rotate(-0.31deg);
     }
     .imagem-curso{
-        width: 40px;
-    height: 40px;
+        width: 18.21px;
+height: 16.6px;
     }
     .pre-curso .titulo{
-        font-size: 13px;
+        font-size: 10px;
     }
     .pre-curso .texto{
         display: none;
@@ -213,10 +213,12 @@ iframe{
         margin-bottom: 30px;
         
     }
+    .diminuir{
+        width: 201px;
+    }
     #video .titulo{
         font-size: 20px;
         text-align: center;
-        margin-top: 10px;
     }
     #video .texto{
         text-align: center;
@@ -229,10 +231,12 @@ iframe{
         margin: 0;
         width: auto;
         align-items: center;
+        margin-top: 10px;
     }
     #video .btn-main{
        padding: 0;
-       font-size: 9px;
+       width: 82px;
+       font-size: 5px;
        background: #FFD60A;
         box-shadow: 0px 5px 10px rgba(38, 94, 142, 0.2);
         border-radius: 32.49px;
@@ -253,10 +257,8 @@ iframe{
         margin-bottom: 2vw;
     }
     #cursos .conteudo .texto{
-        font-size: 18px;
+        font-size: 13px;
         margin-top: 25px;
-        text-align: left;
-        width: 484.26px;
     }
     #cursos .conteudo{
         width: 100%;
@@ -271,14 +273,14 @@ iframe{
         height: auto;
     }
     .mini-header .titulo{
-        font-size: 13px;
+        font-size: 10px;
     }
-    #cursos .imagem-curso{
-        width: 40px;
-    height: 40px;
+    #cursos .imagem-curso, #cursos .img-curso{
+        width: 22px;
+        height: 22px;
     }
     .lista{
-        font-size: 14px;
+        font-size: 9px;
         
     }
     iframe{
@@ -291,9 +293,8 @@ iframe{
         }
         
     }
-
 }
-.pre-curso{
+    .pre-curso{
     transition: background  ease 0.3s;
 }
 .pre-curso:hover{
